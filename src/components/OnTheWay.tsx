@@ -53,7 +53,7 @@ function OnTheWay({ order, initialOrders }: OnTheWayProps) {
           <div className="h-[300px] w-full mb-4">
             <MapContainer
               center={userPosition || position}
-              zoom={13}
+              zoom={11}
               scrollWheelZoom={false}
               style={{ height: "100%", width: "100%" }}
             >
