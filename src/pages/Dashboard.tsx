@@ -18,7 +18,7 @@ const Dashboard = () => {
     <div className="flex h-screen bg-gray-100">
       <div className="flex flex-col flex-1">
         <Header />
-        <div className="flex-1 px-8 py-4 overflow-y-auto">
+        <div className="flex-1 px-8 pt-8 pb-12 overflow-y-auto">
           <TimePeriodSelector />
           <StatsOverview />
           <OrderStatusPanel

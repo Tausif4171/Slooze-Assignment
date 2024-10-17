@@ -53,7 +53,7 @@ const Layout: React.FC<React.PropsWithChildren<{}>> = ({ children }) => {
   }, [isSidebarOpen, windowWidth]);
 
   return (
-    <div className="h-screen w-full flex flex-col">
+    <div className="h-screen w-full flex flex-col overflow-hidden">
       {windowWidth < 768 && (
         <button
           onClick={toggleSidebar}

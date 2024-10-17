@@ -28,7 +28,7 @@ const OrderTracking = ({
   }
 
   return (
-    <div className="p-4 mt-4 bg-white rounded-lg shadow">
+    <div className="p-4 mt-6 bg-white rounded-lg shadow">
       <div className="flex justify-between items-center mb-6">
         <div className="flex items-center gap-x-3">
           <div className="flex bg-white border border-[#eee] justify-center items-center w-[36px] h-[36px] rounded-md">

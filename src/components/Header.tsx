@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <header className="flex justify-between items-center mb-8 bg-white px-8 py-4">
+    <header className="flex justify-between items-center bg-white px-8 py-4">
       <h1 className="text-2xl font-bold">Dashboard</h1>
       <div className="flex items-center space-x-4">
         <div className="flex -space-x-2">
